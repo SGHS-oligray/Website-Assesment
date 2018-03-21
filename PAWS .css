@@ -1,0 +1,17 @@
+body { margin: 0 0 0 0;
+	background-color: white; 
+}
+
+#banner {
+	font-size: 35px;
+	position: center 50%;
+	font-family:'Bubblegum Sans', cursive;
+	
+	}
+	
+#banner img {
+	position: center 40%;
+	float: center;
+}
+	
+	
