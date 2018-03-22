@@ -6,7 +6,8 @@ body { margin: 0 0 0 0;
 	font-size: 35px;
 	position: center 50%;
 	font-family:'Bubblegum Sans', cursive;
-	
+	text-align: center;
+	color: FF8C64;
 	}
 	
 .center {
