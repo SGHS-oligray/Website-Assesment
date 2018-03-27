@@ -13,12 +13,10 @@
 Pet Adoption Welfare Shelter </h1>
 </div>
 <div class="topnav">
-  <a href="find.html">Where to find us</a>
   <a href="contact.html">Contact</a>
   <a href="staff.html">Staff</a>
   <a href="Advice.html">Advice on caring for your pets</a>
   <a class="active" href="Home.html">Home</a>
-  <a href="profiles.html">Profiles</a>
   <div class="dropdown">
     <button class="dropbtn">Profiles
       <i class="fa fa-caret-down"></i>
@@ -32,6 +30,53 @@ Pet Adoption Welfare Shelter </h1>
   </div> 
 </div>
 <h2> Contact </h2>
+<img src="map.jpg">
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+    <label for="interested">Interested animal for adoption</label>
+    <select id="interested" name="interested">
+      <option value="Jone's the Guinea Pig">Jone's the Guinea Pig</option>
+      <option value="Lucy the Parrot">Lucy the Parrot</option>
+      <option value="Poppy the Poodle">Poppy the Poodle</option>
+	  <option value="Kirsten the Cat">Kirsten the Cat</option>
+	</select>
+
+    <label for="subject">Comments</label>
+    <textarea id="subject" name="subject" placeholder="Comments." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+<style>
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #67c2f3;
+    color: white;
+    text-align: center;
+}
+</style>
+<div class="footer">
+  <p>Paws   
+  <br> Email us at:<br>
+  Admin - admin@paws.co.nz<br>
+ Free Phone: <br>
+ 03 123 4567<br>
+ 27 Station Road, Clifton <br>
+Southland
+  </p>
+</div>
 
 </body>
 </html>
