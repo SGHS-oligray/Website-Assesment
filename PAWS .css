@@ -13,8 +13,8 @@ body { margin: 0 0 0 0;
  /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+  background-color: #60F5ad;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
 /* Links inside the navbar */
@@ -47,14 +47,14 @@ body { margin: 0 0 0 0;
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #67C2F3;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color:#60F5ad ;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -72,7 +72,7 @@ body { margin: 0 0 0 0;
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: 60F5ad;
 }
 
 /* Show the dropdown menu on hover */
@@ -117,7 +117,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #60F5AD;
+    background-color: #67C2F3;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -128,7 +128,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #67C2F3;
+    background-color: #60F5AD;
 }
 
 /* Add a background color and some padding around the form */
